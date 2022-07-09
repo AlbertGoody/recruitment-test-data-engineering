@@ -5,4 +5,6 @@ WORKDIR /app
 COPY Gemfile ./
 RUN bundle install
 
-COPY example.rb ./
+COPY place.rb ./
+COPY person.rb ./
+COPY process.rb ./
